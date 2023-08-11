@@ -24,7 +24,7 @@ jobs:
     - name: Install NPM
       run: npm install
     - name: Run the app
-      run: npm start
+      run: npm run start
     - name: Run the tests
       run: npm test
     
