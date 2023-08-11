@@ -21,9 +21,10 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
-      -name: Installing NPM
-       run: npm install
-      -name: Run the app
-       run: npm start
-      -name: Run tests
-       run: npm test
+    - name: Install NPM
+      run: npm install
+    - name: Run the app
+      run: npm start
+    - name: Run the tests
+      run: npm test
+    
